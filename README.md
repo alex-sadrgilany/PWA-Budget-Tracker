@@ -12,10 +12,25 @@ https://pwa-budget--tracker.herokuapp.com/
 
 ## Table of Contents
 
+* [Screenshots](#screenshots)
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
 * [Questions](#questions)
+
+## Screenshots
+
+Online Functionality
+
+![Using the application while online](./assets/screenshots/screenshot1.PNG)
+
+Offline Functionality
+
+![Using the application while offline](./assets/screenshots/screenshot2.PNG)
+
+Returning Online Functionality
+
+![Returning online to show the transactions saved](./assets/screenshots/screenshot3.PNG)
 
 ## Installation
 
