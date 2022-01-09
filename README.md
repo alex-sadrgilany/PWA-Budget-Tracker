@@ -4,7 +4,11 @@
 
 ## Description
 
-This project was created in order to utilize a progressive web application when a user is not connected to the internet. With the use of IndexedDB a user can continue to input transactions if they are without an internet connection. Then, when the user regains an internet connection IndexedDB has their transactions saved and ready to submit to the database. This is all possible by manipulating the cache when the user first connects to the website with a valid connection. 
+This project was created in order to utilize a progressive web application when a user is not connected to the internet. With the use of IndexedDB a user can continue to input transactions if they are without an internet connection. Then, when the user regains an internet connection IndexedDB has their transactions saved and ready to submit to the database. This is all possible by manipulating the cache when the user first connects to the website with a valid connection.
+
+## Deployed Application
+
+https://pwa-budget--tracker.herokuapp.com/
 
 ## Table of Contents
 
@@ -38,7 +42,7 @@ Step 4: After installing all dependencies, you may invoke the application using:
 npm start
 ```
 
-Step 5: Use insomnia or a similar application to test all the various different routes and how they respond to whichever information you desire.
+Step 5: Navigate to localhost:3001 in order to use the application locally.
 
 ## License
 
