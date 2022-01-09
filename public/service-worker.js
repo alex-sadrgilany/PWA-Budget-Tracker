@@ -1,3 +1,4 @@
+// setting the array of files to cache
 const FILES_TO_CACHE = [
     "/",
     "./index.html",
@@ -19,6 +20,7 @@ const APP_PREFIX = "BudgetTracker-";
 const VERSION = "version_01";
 const CACHE_NAME = APP_PREFIX + VERSION;
 
+// original function to install all the files to the cache for use offline
 self.addEventListener("install", function(event) {
     event.waitUntil(
         caches.open(CACHE_NAME)
@@ -31,6 +33,7 @@ self.addEventListener("install", function(event) {
     self.skipWaiting();
 });
 
+// function to remove unnecessary cache files
 self.addEventListener("activate", function(event) {
     event.waitUntil(
         caches.keys()
@@ -54,6 +57,7 @@ self.addEventListener("activate", function(event) {
     self.clients.claim();
 });
 
+// function to fetch any called requests if they're not present in the cache
 self.addEventListener("fetch", function(event) {
     if (event.request.url.includes("/api/")) {
         event.respondWith(
